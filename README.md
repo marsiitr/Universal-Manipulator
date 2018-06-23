@@ -1,7 +1,7 @@
 # Universal-Manipulator
 # Abstract
 
-A mechanical arm, programmable with similar functions to a human arm having. It has 3 degree of motion and a gripper attached to it.It can pick up an object from one  given coordinates and drop to another given coordinates.
+A mechanical arm, programmable with similar functions to a human arm having. The gripper attached can be used to pick objects from one  given coordinates and drop to another given coordinates .
 
 # Team Members
 <li>Vipin Kumar</li>
@@ -66,4 +66,8 @@ The bot is made by joining 2 arms with base gear along with a gripper. DC motors
 # Working
 Basically initial and final coordinates are fixed.The sequence of steps followed are also fixed but can be varied using code. Initally one arm will go down and the gripper will grab the object using servo motor. Then the 2 arms will move up and base gear will rotate to another coordinates as given in the code. Then it will drop the object. Finally the the arms and base gear will come to their initial location. The initial and final coordinates can be varied using the code.
 
-# Future Improvements
+# Limitations and Future Improvements
+<ol>
+  <li>It can only pick object from fixed coordinate and drop it to another fixed coordinate. The coordinates can be only be varied from code. Image processing can be used to detect the positioin of the object.<li>
+  </ol>
+    
