@@ -25,10 +25,19 @@ Different applications will have different requirements. Industrial robots are d
   
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/base.png"></div></p>  
   
- <li>Basegear</li>
+ <li>Base gear</li>
   
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/gear.png"></div></p>  
  
  <li>3D printed arms</li>
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/arm.png"></div></p>
+
+<li>Controling gears</li>
+
+<p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/arm.png"></div></p>
+
+<li>bearings</li>
+
+<p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/24007914_962347590582031_479002411_o.jpg"></div></p>
+
