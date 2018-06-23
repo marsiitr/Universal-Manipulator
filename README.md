@@ -21,6 +21,14 @@ Different applications will have different requirements. Industrial robots are d
 
 # Hardware
 <ol>
-  <li>3D printed arms</li>
+  <li>Base</li>
+  
+<p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/base.png"></div></p>  
+  
+ <li>Basegear</li>
+  
+<p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/gear.png"></div></p>  
+ 
+ <li>3D printed arms</li>
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/arm.png"></div></p>
