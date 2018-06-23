@@ -68,7 +68,7 @@ Basically initial and final coordinates are fixed.The sequence of steps followed
 
 # Limitations and Future Improvements
 <ol>
-<li>It can only pick object from fixed coordinate and drop it to another fixed coordinate. The coordinates can be only be varied from code. Image processing can be used to detect the positioin of the object.<li>
+<li>It can only pick object from fixed coordinate and drop it to another fixed coordinate. The coordinates can be only be varied from code. Image processing can be used to detect the positioin of the object.</li>
 <li>The size of object is also fixed. It should also be able to pick the object of various sizes.</li> 
 </ol>
     
