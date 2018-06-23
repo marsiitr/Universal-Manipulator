@@ -51,6 +51,7 @@ Different applications will have different requirements. Industrial robots are d
 <li>Motor driver(LN298N)</li>
 <li>Servo motor for gripper</li>
 
+</ol>
 # Software
 
 <b>arduino:</b>
@@ -62,4 +63,7 @@ The bot is made by joining 2 arms with base gear along with a gripper. DC motors
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/DSC_0085.NEF.jpg"></div></p>
 
 
+# Working
+Basically initial and final coordinates are fixed.The sequence of steps followed are also fixed but can be varied using code. Initally one arm will go down and the gripper will grab the object using servo motor. Then the 2 arms will move up and base gear will rotate to another coordinates as given in the code. Then it will drop the object. Finally the the arms and base gear will come to their initial location. The initial and final coordinates can be varied using the code.
 
+# Future Improvements
