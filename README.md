@@ -58,7 +58,7 @@ Different applications will have different requirements. Industrial robots are d
 
 # Software
 
-<b>arduino:</b>
+## arduino
 The movement of dc motors and the servo motor is controlled by the arduino code with the help of the feedback from the rotary encoders.
 
 # Structure
