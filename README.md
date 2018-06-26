@@ -21,40 +21,56 @@ Different applications will have different requirements. Industrial robots are d
 
 # Hardware
 
-1. Base
+1. 1 Base
   
 ![base](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/base.png)  
   
-2. Base gear
+2. 1 Base gear
   
 ![base gear](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/gear.png)  
  
-3. 3D printed arms
+3. 2 3D printed arms
 
 ![arms](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/arm.png)
 
-4. Controling gears
+4. 6 Controling gears
 
 ![controling gears](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/3D-printed-Gear-set-for-prototyping-with-plastic-.jpg)
 
 
-5. bearings
+5. 5 bearings
 
 ![bearings](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/24007914_962347590582031_479002411_o.jpg)
 
-6. worm gear
+6. 1 worm gear
 
 ![worm gear](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/download.jpg)
 
-7. gripper
+7. 1 gripper
 
 ![gripper](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/gripper.png)
 
-8. Arduino Uno</li>
-9. Rotary Encoders</li>
-10. High torque dc motors(12 volt)</li>
-11. Motor driver(LN298N)</li>
-12. Servo motor for gripper</li>
+8. 1 Arduino Uno
+
+![arduino](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/sku_370842_1.jpg)
+
+9. 3 Rotary Encoders
+
+![rotary encoder](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/0%20UGE%20ROTARY%20ENCODER%20400PPR-500x375.jpg)
+
+10. 3 High torque dc motors(12 volt)
+
+![dc motor](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/150-rpm-high-torque-12-volt-dc-gear-motor-for-arduino-raspberry-pi-robotics-high-rpm-high-torque-dc-motors-rm0633-by-robomart-700-500x500.jpg)
+
+11. 2 Motor driver(LN298N)
+
+![motor driver](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/1-750x750.jpg)
+
+12. 1 Servo motor for gripper</li>
+
+![servo motor](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/micro-servo-sg90.jpg)
+
+
 
 # Software
 
