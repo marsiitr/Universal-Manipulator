@@ -25,31 +25,31 @@ Different applications will have different requirements. Industrial robots are d
   
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/base.png"></div></p>  
   
-1. Base gear
+2. Base gear
   
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/gear.png"></div></p>  
  
-1. 3D printed arms
+3. 3D printed arms
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/arm.png"></div></p>
 
-1.Controling gears
+4. Controling gears
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/3D-printed-Gear-set-for-prototyping-with-plastic-.jpg"></div></p>
 
-1. bearings
+5. bearings
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/24007914_962347590582031_479002411_o.jpg"></div></p>
 
-1. worm gear
+6. worm gear
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/download.jpg"></div></p>
 
-1. Arduino Uno</li>
-1. Rotary Encoders</li>
-1. High torque dc motors(12 volt)</li>
-1. Motor driver(LN298N)</li>
-1. Servo motor for gripper</li>
+7. Arduino Uno</li>
+8. Rotary Encoders</li>
+9. High torque dc motors(12 volt)</li>
+10. Motor driver(LN298N)</li>
+11. Servo motor for gripper</li>
 
 # Software
 
