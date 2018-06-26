@@ -11,8 +11,8 @@ A mechanical arm, programmable with similar functions to a human arm having. The
 * Punit Gora
 
 # Mentors
-<li>Bhaskar Kaushik</li>
-<li>Shivam Srivastava</li>
+* Bhaskar Kaushik
+* Shivam Srivastava
 
 # Applicatioins
 
@@ -20,38 +20,37 @@ Robotic arms are typically used for industrial applications. The application is 
 Different applications will have different requirements. Industrial robots are designed for specific applications and based on their function will have their own movement, linkage dimension, control law, software and accessory packages. It can be used for welding, painting, palletizing.
 
 # Hardware
-<ol>
-  <li>Base</li>
+
+1. Base
   
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/base.png"></div></p>  
   
- <li>Base gear</li>
+1. Base gear
   
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/gear.png"></div></p>  
  
- <li>3D printed arms</li>
+1. 3D printed arms
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/arm.png"></div></p>
 
-<li>Controling gears</li>
+1.Controling gears
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/3D-printed-Gear-set-for-prototyping-with-plastic-.jpg"></div></p>
 
-<li>bearings</li>
+1. bearings
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/24007914_962347590582031_479002411_o.jpg"></div></p>
 
-<li>worm gear</li>
+1. worm gear
 
 <p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/download.jpg"></div></p>
 
-<li>Arduino Uno</li>
-<li>Rotary Encoders</li>
-<li>High torque dc motors(12 volt)</li>
-<li>Motor driver(LN298N)</li>
-<li>Servo motor for gripper</li>
+1. Arduino Uno</li>
+1. Rotary Encoders</li>
+1. High torque dc motors(12 volt)</li>
+1. Motor driver(LN298N)</li>
+1. Servo motor for gripper</li>
 
-</ol>
 # Software
 
 <b>arduino:</b>
