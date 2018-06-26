@@ -74,7 +74,7 @@ Different applications will have different requirements. Industrial robots are d
 
 # Software
 
-## arduino
+## Arduino
 The movement of dc motors and the servo motor is controlled by the arduino code with the help of the feedback from the rotary encoders.
 
 
@@ -82,6 +82,29 @@ The movement of dc motors and the servo motor is controlled by the arduino code 
 The bot is made by joining 2 arms with base gear along with a gripper. DC motors are attached with arms and base gear to provide  motion. The whole structure is mounted on a wooden base. The 3D printed base is fixed with wodden base on which base gear is mounted using bearing. DC motor is attached to base gear using the controling gears along with the encoder. One arm is mounted on the base gear using shaft and bearings along with DC motor and rotory encoder.Worm gear is attached to the controlling gear to lock the arm at certain position and prvent the 2nd arm from falling. 2nd arm is mounted on the 1st arm along with DC motor and encoder.At the end of 2nd arm gripper is fixed. Servo motor is attached to the gripper to hold an object.
 
 ![gripper](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/DSC_0085.NEF.jpg)
+
+# Coordinate Calculation
+
+Here is a schematic diagram of our robot:
+
+![gripper](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/DSC_0085.NEF.jpg)
+
+This diagram tells us a couple of things:
+  * The segments have the length len1 and len2, respectively.
+  * The root joint describes an angle A1 measured from the x axis.
+  * The second joint describes an angle A2 measured from the first segment (counterclockwise in both cases).
+
+using law of cosines:
+
+![gripper](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/DSC_0085.NEF.jpg)
+
+now we have to calculate angle A1 and A2
+* From the robotic arm diagram above (the one with D1, D2, dist, etc), we can directly derive the first formula:
+     A1 = D1 + D2
+     
+*
+
+
 
 # Working
 Basically initial and final coordinates are fixed.The sequence of steps followed are also fixed but can be varied using code. Initally one arm will go down and the gripper will grab the object using servo motor. Then the 2 arms will move up and base gear will rotate to another coordinates as given in the code. Then it will drop the object. Finally the the arms and base gear will come to their initial location. The initial and final coordinates can be varied using the code.
