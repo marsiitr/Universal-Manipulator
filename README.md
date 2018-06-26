@@ -87,7 +87,7 @@ The bot is made by joining 2 arms with base gear along with a gripper. DC motors
 
 Here is a schematic diagram of our robot:
 
-![gripper](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/DSC_0085.NEF.jpg)
+![robotarm](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/robotarm.png)
 
 This diagram tells us a couple of things:
   * The segments have the length len1 and len2, respectively.
@@ -96,13 +96,23 @@ This diagram tells us a couple of things:
 
 using law of cosines:
 
-![gripper](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/DSC_0085.NEF.jpg)
+![lawofcosines](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/lawofcosines.png)
 
 now we have to calculate angle A1 and A2
-* From the robotic arm diagram above (the one with D1, D2, dist, etc), we can directly derive the first formula:
-     A1 = D1 + D2
+* From the robotic arm diagram above (the one with D1, D2, dist, etc), we can directly derive the first formula: A1 = D1 + D2
      
-*
+* D1 is fairly easy to calculate. In the following diagram, x, y, and dist define a right-angled triangle. Here, D1 can be calculated in two ways: The arcsine of y/dist or the arctangent of y/x. As we have x and y readily available, let’s choose the arctangent formula.
+
+![arctan](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/arctan.png)
+
+* D2 requires the law of cosines. Basically, we just map our “robot triangle” to the “law of cosines” triangle by using dist as a, len1 as b, and len2 as c. The resulting angle C is our D2.
+
+
+![lengtha](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/calcd2.png)
+
+* Now only A2 is left. Luckily, we can reuse the law of cosines for this. We only need to map our triangle to the one from the law of cosines with different parameter mappings than for D2: len1 as a, len2 as b, and dist as c.
+
+![lengthd](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/calca2.png)
 
 
 
