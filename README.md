@@ -23,7 +23,7 @@ Different applications will have different requirements. Industrial robots are d
 
 1. Base
   
-<p><div><img src="https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/base.png"></div></p>  
+![base](https://github.com/shubhamsharele/Universal-Manipulator/blob/master/Photos/base.png")  
   
 2. Base gear
   
