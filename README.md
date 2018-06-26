@@ -61,6 +61,7 @@ Different applications will have different requirements. Industrial robots are d
 ## arduino
 The movement of dc motors and the servo motor is controlled by the arduino code with the help of the feedback from the rotary encoders.
 
+
 # Structure
 The bot is made by joining 2 arms with base gear along with a gripper. DC motors are attached with arms and base gear to provide  motion. The whole structure is mounted on a wooden base. The 3D printed base is fixed with wodden base on which base gear is mounted using bearing. DC motor is attached to base gear using the controling gears along with the encoder. One arm is mounted on the base gear using shaft and bearings along with DC motor and rotory encoder.Worm gear is attached to the controlling gear to lock the arm at certain position and prvent the 2nd arm from falling. 2nd arm is mounted on the 1st arm along with DC motor and encoder.At the end of 2nd arm gripper is fixed. Servo motor is attached to the gripper to hold an object.
 
@@ -70,10 +71,10 @@ The bot is made by joining 2 arms with base gear along with a gripper. DC motors
 Basically initial and final coordinates are fixed.The sequence of steps followed are also fixed but can be varied using code. Initally one arm will go down and the gripper will grab the object using servo motor. Then the 2 arms will move up and base gear will rotate to another coordinates as given in the code. Then it will drop the object. Finally the the arms and base gear will come to their initial location. The initial and final coordinates can be varied using the code.
 
 # Limitations and Future Improvements
-<ol>
-<li>It can only pick object from fixed coordinate and drop it to another fixed coordinate. The coordinates can be only be varied from the code.We can use  image processing to detect the positioin of the object and the bot shoud be able to pick up the object from that position.</li>
-<li>The size of object is also fixed. It should also be able to pick the object of various sizes.</li> 
-</ol>
+
+1. It can only pick object from fixed coordinate and drop it to another fixed coordinate. The coordinates can be only be varied from the code.We can use  image processing to detect the positioin of the object and the bot shoud be able to pick up the object from that position.
+2.The size of object is also fixed. It should also be able to pick the object of various sizes.
+
     
 # Video
 https://photos.app.goo.gl/8jrEAZFpoxkNe4iW9
