@@ -4,11 +4,11 @@
 A mechanical arm, programmable with similar functions to a human arm having. The gripper attached can be used to pick objects from one  given coordinates and drop to another given coordinates .
 
 # Team Members
-<li>Vipin Kumar</li>
-<li>Shubham Kumar</li>
-<li>Amit Kumar</li>
-<li>Shivam Chopra</li>
-<li>Punit Gora</li>
+* Vipin Kumar
+* Shubham Kumar
+* Amit Kumar
+* Shivam Chopra
+* Punit Gora
 
 # Mentors
 <li>Bhaskar Kaushik</li>
